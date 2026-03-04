@@ -1,0 +1,10 @@
+철인모드가 아닌, 일반모드로 게임을 저장하고 난 다음에
+savedGames 폴더에서 .ck 저장파일을 연다.
+
+
+// gene 을 가져와서 genes.txt 에 넣는다
+meta_main_portrait = {
+    genes = {
+
+    }
+}

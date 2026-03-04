@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://loah8.github.io/ck3-converter/sitemap.xml
