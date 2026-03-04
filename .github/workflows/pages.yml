@@ -27,16 +27,18 @@ jobs:
           cache: npm
 
       - name: Install
+        working-directory: FE
         run: npm ci
 
       - name: Build
+        working-directory: FE
         run: npm run build
 
-      # Vite 기본 산출물: dist/
+      # Vite 또는 Vue CLI 산출물: FE/dist/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./FE/dist
 
   deploy:
     needs: build
