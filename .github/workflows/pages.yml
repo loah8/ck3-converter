@@ -33,7 +33,7 @@ jobs:
 
       - name: Build
         working-directory: FE
-        run: npm run build -- --publicPath /ck3-converter/
+        run: npm run build
 
       # Vite 또는 Vue CLI 산출물: FE/dist/
       - name: Upload artifact
