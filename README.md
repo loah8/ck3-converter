@@ -1,3 +1,5 @@
+<br>
+
 # CK3 DNA Converter
 
 게임 크루세이더 킹즈 3(Crusader Kings III)의 DNA 데이터를 서로 다른 형식(인게임용 Base64 DNA ↔ 캐릭터 커마용 Ruler Designer 형식)으로 변환해주는 웹 도구입니다.  
@@ -86,8 +88,6 @@ GitHub Actions를 활용한 자동 배포 환경을 공부하기 위해 구축�
 - **설정 파일**: `.github/workflows/pages.yml`
 
 
-<br>
-<br>
 <br>
 <br>
 <br>
